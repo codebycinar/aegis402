@@ -22,11 +22,11 @@ See DESCRIBE.md (paste its body into the "Describe your BUIDL" markdown field).
 - EIP-712 (casper-eip-712), secp256k1 (casper-go-sdk compatible), casper-js-sdk
 
 ## Links
-- GitHub: (push the repo public, then paste the URL)
+- GitHub: https://github.com/codebycinar/aegis402
 - Demo video: (record ~3 min, see DEMO_SCRIPT.md)
 
 ## Submission checklist (from the rules)
-- [x] Open-source GitHub repo with README (README.md) — push it public, then paste the URL
+- [x] Open-source GitHub repo with README — https://github.com/codebycinar/aegis402 (public)
 - [x] Working prototype on Casper Testnet with a transaction-producing on-chain component
       DONE. On testnet (testnet.cspr.live/transaction/<hash>):
       - CEP-18 payment token: package a8d8eaa5dbb344f42c182e08dc7b4676376614ac379fe4f1040b4187e2f3698f
