@@ -1,0 +1,28 @@
+{
+  "name": "@aegis402/skill",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test --import tsx ./test/*.test.ts",
+    "spike": "node --import tsx src/spike.ts",
+    "mcp": "node --import tsx src/mcp.ts",
+    "assess": "node --import tsx src/action.ts"
+  },
+  "dependencies": {
+    "@aegis402/shared": "*",
+    "@langchain/core": "^1.1.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@noble/curves": "^1.8.0",
+    "@noble/hashes": "^1.7.0",
+    "casper-js-sdk": "^5.0.12",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

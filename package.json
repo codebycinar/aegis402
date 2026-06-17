@@ -1,0 +1,25 @@
+{
+  "name": "aegis402",
+  "version": "0.1.0",
+  "private": true,
+  "description": "x402-native risk-oracle agent for Casper — pay-per-call risk gate for autonomous agents",
+  "license": "MIT",
+  "workspaces": [
+    "shared",
+    "oracle",
+    "skill"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "oracle": "npm run start --workspace oracle",
+    "skill": "npm run start --workspace skill",
+    "demo": "node --import tsx demo/demo.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

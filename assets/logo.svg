@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480" role="img" aria-label="Aegis402 logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" rx="96" fill="#0b1220"/>
+  <!-- shield -->
+  <path d="M240 70 L380 120 V250 C380 330 320 388 240 416 C160 388 100 330 100 250 V120 Z"
+        fill="url(#g)" stroke="#7dd3fc" stroke-width="6"/>
+  <!-- check / gate mark -->
+  <path d="M175 245 L222 292 L312 188" fill="none" stroke="#e6f6ff" stroke-width="26"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 402 -->
+  <text x="240" y="372" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58"
+        font-weight="800" fill="#e6f6ff" text-anchor="middle" letter-spacing="2">402</text>
+</svg>

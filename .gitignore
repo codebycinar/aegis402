@@ -1,0 +1,30 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secret_key*
+keys/
+
+# node
+node_modules/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# rust / odra
+target/
+Cargo.lock
+wasm/
+*.wasm
+
+# misc
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# payment-rail wasm is needed for deploy
+!onchain/*.wasm
+contract/wasm/
